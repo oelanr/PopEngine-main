@@ -69,7 +69,6 @@ class MainView(tk.Tk):
         self.last_simulation_date = datetime.now().strftime("%d/%m/%Y %H:%M")
         self.import_percent = import_percent
         self.export_percent = export_percent
-        # Ne fais PAS de update_dashboard ici !
 
     def clear_main(self):
         for widget in self.main_area.winfo_children():
